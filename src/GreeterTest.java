@@ -10,7 +10,12 @@ public class GreeterTest {
 		System.out.println(bob.toString());
 		
 		
+		Greeter[] arr = new Greeter[3];
+		arr[0]=bob;
+		arr[1]= new Greeter();
+		arr[2]= new Greeter();
 		
+		System.out.println(arr[0].toString()+arr[1].toString()+arr[2].toString());
 		
 		
 		
